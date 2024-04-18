@@ -1,3 +1,3 @@
-# Data-Analysis
+# Game Theory
 
-## This is the working repository for some of the datasets that I am interested in analyzing. 
+## SPA for Introductory Game Theory Concepts with examples
