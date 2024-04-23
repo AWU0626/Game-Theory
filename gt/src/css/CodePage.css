@@ -1,0 +1,11 @@
+.refLink {
+  text-decoration: none;
+  color: black; /* Ensures this is the most specific rule for these links */
+  transition: color 0.3s ease;
+  font-size: 1.15rem;
+}
+
+.refLink:hover {
+  color: #7e7e7e;
+  font-size: 1.15rem;
+}
