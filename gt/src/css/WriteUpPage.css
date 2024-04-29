@@ -1,6 +1,6 @@
 .refLink {
   text-decoration: none;
-  color: black; /* Ensures this is the most specific rule for these links */
+  color: black;
   transition: color 0.3s ease;
   font-size: 1.15rem;
 }

@@ -28,11 +28,6 @@ export default function Navbar() {
                 Applications & Simulations
               </Link>
             </li>
-            <li className="nav-item px-2">
-              <Link className="nav-link" to="/code" style={{color: "#D2D2D2"}}>
-                Code & References
-              </Link>
-            </li>
           </ul>
         </div>
       </div>
