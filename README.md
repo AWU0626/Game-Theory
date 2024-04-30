@@ -1,5 +1,8 @@
 # Game Theory
 
+## Dependencies:
+1. ensure that you have NodeJs environment installed on your machine by opening up a terminal and check `node --version`. If you do not have Node.Js installed, follow the guide: `https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/development_environment`
+
 ## Direction:
 1. copy the repo: `https://github.com/AWU0626/Game-Theory.git`
 2. open your terminal (terminal, command prompt, etc) and direct to a location on your local machine
