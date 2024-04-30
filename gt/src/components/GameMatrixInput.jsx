@@ -69,44 +69,6 @@ export default function GameMatrixInput({ dimension = 2 }) {
     window.prompt('Nash Equilibria:', nashEquilibria.join(', ') || 'None');
   };
 
-  const findDominantStrategy = () => {
-    const parsedMatrix = parseMatrix();
-
-    if (!parsedMatrix || parsedMatrix.some(row => row.some(cell => cell === null))) {
-      window.alert('Error: Please make sure all matrix cells are filled correctly.');
-      return;
-    }
-
-    // Initialize variables to keep track of potential dominant strategies
-    let dominantStrategyPlayer1;
-    let dominantStrategyPlayer2;
-
-    // Determine dominant strategy for Player 1
-    if (parsedMatrix[0][0].player1 > parsedMatrix[1][0].player1 &&
-        parsedMatrix[0][1].player1 > parsedMatrix[1][1].player1) {
-      dominantStrategyPlayer1 = 'Row 1';
-    } else if (parsedMatrix[1][0].player1 > parsedMatrix[0][0].player1 &&
-              parsedMatrix[1][1].player1 > parsedMatrix[0][1].player1) {
-      dominantStrategyPlayer1 = 'Row 2';
-    }
-
-    // Determine dominant strategy for Player 2
-    if (parsedMatrix[0][0].player2 > parsedMatrix[0][1].player2 &&
-        parsedMatrix[1][0].player2 > parsedMatrix[1][1].player2) {
-      dominantStrategyPlayer2 = 'Column 1';
-    } else if (parsedMatrix[0][1].player2 > parsedMatrix[0][0].player2 &&
-              parsedMatrix[1][1].player2 > parsedMatrix[1][0].player2) {
-      dominantStrategyPlayer2 = 'Column 2';
-    }
-
-    // Create message
-    let message = `Player 1's Dominant Strategy: ${dominantStrategyPlayer1 || 'None'}\n`;
-    message += `Player 2's Dominant Strategy: ${dominantStrategyPlayer2 || 'None'}`;
-
-    // Display the dominant strategies
-    window.alert(message);
-  };
-
   const renderMatrixInputs = () =>
     matrix.map((row, rowIndex) => (
       <Grid container item spacing={2} key={rowIndex}>
@@ -132,9 +94,6 @@ export default function GameMatrixInput({ dimension = 2 }) {
       <Grid item xs={12} >
           <Button variant="contained" color="primary" onClick={findNashEquilibrium}>
             Calculate Nash Equilibrium
-          </Button>
-          <Button variant="contained" color="primary" onClick={findDominantStrategy} style={{ marginTop: '10px' }}>
-            Find Dominant Strategy 
           </Button>
       </Grid>
     </Grid>
