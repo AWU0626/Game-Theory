@@ -142,6 +142,10 @@ export default function WriteUpPage() {
 
                                         </Link>
                                     </li>
+                                    <li>
+                                        <Link className="refLink" 
+                                            to="https://builtin.com/data-science/dominated-strategy-in-game-theory">Dominated Strategy in Game Theory</Link>
+                                    </li>
                                 </ul>   
                             </div>
                         </div>
