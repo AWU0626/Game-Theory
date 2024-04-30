@@ -28,3 +28,8 @@ Implements both Iterative elimination on strongly dominated and weakly dominated
 
 ### 4. GameMatrixInput:
 Specifically implemented to house the game scenario regarding credit suisse buyout game.
+
+## Interactive:
+1. For any matrix in the simulation page, you can change up the value inside the matrix. Due to computing time,
+all matrices are limited to 2x2.
+2. Note that each entry of the matrix comes in a tuple `(value1,value2)`. It is important that when you input your own values, DO NOT add spaces or the matrix parser will not recognize your input.
