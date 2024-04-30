@@ -4,7 +4,7 @@
 ### 1. Home
 #### Homepage contains some of the basic informations needed and the references to all the sources used.
 ### 2. Simulation
-#### Simulations page contains different types of Games involved and an explanation of how the game plays out.
+Simulations page contains different types of Games involved and an explanation of how the game plays out.
 
 ## Relevant components:
 ### 1. NormMatrixInput:
