@@ -2,7 +2,7 @@
 
 ## Direction:
 1. copy the repo: `https://github.com/AWU0626/Game-Theory.git`
-2. open your local terminal and direct to a location on your local machine
+2. open your terminal (terminal, command prompt, etc) and direct to a location on your local machine
 3. create an empty folder and directed to the empty folder
 4. inside the empty folder, run `git clone https://github.com/AWU0626/Game-Theory.git`
 5. after cloning is done, navigate into directory: `Game-Theory/gt/`
