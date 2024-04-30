@@ -169,14 +169,18 @@ export default function SimulationPage() {
             <h3 style={{ textDecoration: "underline" }}>Credit Suisse Purchase</h3>
             <p>
                 In the final section, we will take a look at the application of Game Theory in 
-                the purchase of Credit Suisse by UBS. For some background, UBS and Credit Suisse 
+                the purchase of Credit Suisse by UBS. 
+            </p>
+            <hr />
+            <h5>Background: </h5>
+            <p>
+                UBS and Credit Suisse 
                 are the largest and the 2nd largest bank in Switzerland. Following the bank 
                 rush incident of Silicon Valley Bank, the 16th largest bank in U.S. in 
                 March 2023, the world has been highly sensitive to fluctuations in the banking 
                 system. Around this period of tension, Bloomsberg journalist interviewed 
                 the president of Saudi National Bank, which is the largest shareholder of 
-                Credit Suisse whether he will be providing additional funding to Credit Suisse. 
-            </p>
+                Credit Suisse whether he will be providing additional funding to Credit Suisse. </p>
             <p>
             Ammar Al Khudairy's reponses, "The answer is absolutely not", sparked panic and led to 
             a government commanded emergency buyout of Credit Suisse over 2 days of negotiation on 
@@ -227,7 +231,7 @@ export default function SimulationPage() {
                     (no negotiate, no negotiate): (0.25 - 0.25, 0.25)
                 </li>
             </ul>
-
+            <hr />
             <h5>Result: </h5>
             <p>
                 From the resulting game, the Nash Equilibria maintains that the buy out price of 
